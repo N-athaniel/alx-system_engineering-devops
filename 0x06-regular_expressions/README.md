@@ -15,7 +15,6 @@ DevOps
 5. Not quite HBTN yet
 
 6. Call me maybe
-This task is brought to you by a professional advisor Neha Jain, Senior Software Engineer at LinkedIn.
 
 7. OMG WHY ARE YOU SHOUTING?
 
