@@ -1,4 +1,4 @@
-# This  configuration file redirects port 8080/TCP to port 80/TCP
+#
 # rules.before
 #
 # Rules that should be run before the ufw command line added rules. Custom
