@@ -36,4 +36,4 @@ that the application server request data from the database
 
 2. Contribute!
 
-Help them by submitting a pull request
+Help by submitting a pull request
