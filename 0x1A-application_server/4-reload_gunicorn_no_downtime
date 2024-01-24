@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this script will gracefully reloads Gunicorn.
+
+ps aux | grep gunicorn | awk '{ print $2 }' | xargs kill -HUP
