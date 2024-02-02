@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# A bash script that change nginx server to listen on port 80
+# This configures a server to listening on port 80 of all servers active IPv4 IPs
 
-sed -i 's/\/etc\/nginx\/sites-enabled\/\*/\/etc\/nginx\/sites-enabled\/default/g' /etc/nginx/nginx.conf
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-service nginx start
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
